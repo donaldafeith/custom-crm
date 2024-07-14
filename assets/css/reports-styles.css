@@ -1,0 +1,57 @@
+.crm-reports {
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.report-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+.report-explanation {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.report-chart {
+    flex: 1;
+    min-width: 20%;
+    max-width: 40%;
+    position: relative;
+}
+
+.report-chart canvas {
+    width: 100% !important;
+    height: auto !important;
+    cursor: pointer;
+}
+.fullscreen-chart {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    z-index: 9999;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fullscreen-chart .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.fullscreen-chart .close-button:hover {
+    color: red;
+}

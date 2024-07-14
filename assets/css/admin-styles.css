@@ -1,0 +1,21 @@
+/* Custom admin styles */
+
+.wrap h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.wrap p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.wrap ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.wrap ul li {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
